@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="../CSS/index.css" />
+  <title>HOME</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div><img src="../candles/logo.png" alt="Logo" width="179px" height="70px" class="logo"></div>
+      <div class="navbar-links">
+        <div class="dropdown">
+          <a href="../HTML/index.html">HOME </a>
+        </div>
+        <div class="dropdown">
+          <a href="../HTML/Blog.html">BLOG</a>
+          <div class="dropdown-content">
+            <a href="../HTML/Blog.html">GRID BLOG</a>
+            <a href="../HTML/Blog List.html">BLOG LIST</a>
+            <a href="../HTML/BlogPost.html">BLOG POST</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="../HTML/gallery.html">GALLERY</a>
+        </div>
+        <div class="dropdown">
+          <a href="../HTML/shop_grid.html">SHOP</a>
+          <div class="dropdown-content">
+            <a href="../HTML/shop_grid.html">GRID SHOP</a>
+            <a href="../HTML/single_product.html">SINGLE PRODUCT</a>
+            <a href="../HTML/cart.html">CART PAGE</a>
+            <a href="../HTML/checkout.html"> CHECKOUT</a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-icons">
+        <a href="../HTML/cart.html" class="material-symbols-outlined">Shopping_Cart</a>
+        <a href="../HTML/Blog List.html" class="material-symbols-outlined">list</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="sec1" id="backgroundImage">
+    <div class="container reveal">
+      <div id="backgroundContent">
+        <h5 id="welcomeText" class="reveal">Welcome to Aromatica</h5>
+        <h2 id="headingText" class="reveal">Let our candles create the atmosphere</h2>
+        <h5 id="paragraphText" class="paragraph reveal">At our store, you can find candles with the best scents to help
+          you
+          relax and unwind.</h5>
+        <a id="buttonText" class="reveal">SHOP Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec2">
+    <div class="container2">
+      <div>
+        <img src="../candles/about-8-576x410.jpg" class="about reveal" width="570px" height="405.73px">
+      </div>
+      <div class="rightSection reveal">
+        <div>
+          <h4>A Few Words About Us</h4>
+          <h2>Who We Are</h2>
+          <p>Aromatica is the leading supplier of scented candles in the USA. We aim to keep the cost of our products
+            friendly, without compromising on our quality at all times.</p>
+        </div>
+
+        <div class="rightsecbottom ">
+          <div class="displayinline">
+            <div class="arow">
+              <a href="#">
+                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+              </a>
+            </div>
+            <div class="displayblock">
+              <div>SAM WILLIAMS</div>
+              <div class="color">Company Founder</div>
+            </div>
+          </div>
+          <div class="sign">
+            <img src="../candles/signature-1-160x55.png">
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="sec3">
+    <div class="container">
+      <div>
+        <article class=" reveal">
+          <div class="displayflex">
+            <div class="number">01</div>
+            <div>
+              <img src="../candles/box-icon-modern-01-66x66.png">
+            </div>
+          </div>
+          <h4>
+            For Atmosphere
+          </h4>
+          <p>Our candles create a unique atmosphere both at home and work and add softness to your interior.</p>
+        </article>
+      </div>
+      <div>
+        <article class=" reveal">
+          <div class="displayflex">
+            <div class="number">02
+            </div>
+            <div>
+              <img src="../candles/box-icon-modern-02-66x66.png">
+            </div>
+          </div>
+          <h4>
+            SPA and Beauty
+          </h4>
+          <p>Aromatica’s candles can also be used as a source of unique fragrance for beauty procedures.</p>
+
+        </article>
+      </div>
+      <div>
+        <article class=" reveal">
+          <div class="displayflex">
+            <div class="number">03
+            </div>
+            <div>
+              <img src="../candles/box-icon-modern-03-66x66.png">
+            </div>
+          </div>
+          <h4>
+            Different Candles
+          </h4>
+          <p>We offer a wide variety of candles that can be used for different purposes and add some fragrance.</p>
+
+        </article>
+      </div>
+      <div>
+        <article class=" reveal">
+          <div class="displayflex">
+            <div class="number">04
+            </div>
+            <div>
+              <img src="../candles/box-icon-modern-04-66x66.png">
+            </div>
+          </div>
+          <h4>
+            Natural Aromatics
+          </h4>
+          <p>Aromatica uses only natural ingredients to make the best candles with unforgettable fragrances.</p>
+
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="sec4">
+    <div class="container">
+      <h5>Featured Candles</h5>
+      <h2>Our Products</h2>
+      <div class="filter">
+        <ul class="filter">
+          <li class="activ"><a onclick="All_Products()">ALL</a></li>
+          <li class=""><a onclick="filter_category_votive()">VOTIVE</a></li>
+          <li class=""><a onclick="filter_category_container()">CONTAINER</a></li>
+        </ul>
+      </div>
+      <div class="container_shop reveal">
+        <div class="content">
+          <div class="product_content">
+            <div class="items" id="all_items">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="testimonials">
+    <div class="container">
+      <h5 class="reveal">What Our Customers Say</h5>
+      <h2 class="reveal">Testimonials</h2>
+      <div>
+        <div class="stageTestimonials">
+          <div class="slides reveal">
+            <div>
+              <article class="containerTestimonials">
+                <div class="qout">
+                  <div class="qout-sign">
+                    <i class="fa-solid fa-quote-left fa-2xl" style="color: #d0af8a;"></i>
+                  </div>
+                  <div class="q" id="quote"></div>
+                  <div class="details">
+                    <div class="unit-left">
+                      <img src="../candles/user-11-62x62.jpg" alt="" width="62" height="62" id="image">
+                    </div>
+                    <div class="unit-right">
+                      <div class="author" id="author"></div>
+                      <div class="status" id="status"></div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navigation">
+      <span id="prevO" onmouseover="changeColorB(this)" onmouseout="changeColor(this)"><u>previce</u></span>
+      <span id="nextO" onmouseover="changeColorB(this)" onmouseout="changeColor(this)"><u>next</u></span>
+    </div>
+  </section>
+
+  <section class="sec6">
+    <div class="container6">
+      <div>
+        <img id="sec6" class=" reveal" src="../candles/product-big-1-550x527.jpg">
+      </div>
+      <div class="right-container6 reveal">
+        <h4>Benefits of Our Candles</h4>
+        <h2>Why Choose Us</h2>
+        <div class="cardgroup">
+          <article class="card">
+            <div class="displayinlin">
+              <div class="arow">
+                <a href="#" class="toggleLink">
+                  <i class="fa-solid fa-chevron-right arrows" style="color: #d0af8a;"></i>
+                </a>
+              </div>
+              <div class="card-tittle">
+                <a href="#" class="toggleText">Our candles create the right mood</a>
+              </div>
+            </div>
+            <div class="collaps">
+              <div>
+                <p class="card-body">Scented candles help to further accentuate an ambiance by engaging one’s olfactory
+                  senses and
+                  triggering memories. For example, summery scents like mandarin are reminiscent of sunshine, blue
+                  skies, and sprightly spirits.</p>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="displayinlin">
+              <div class="arow">
+                <a href="#" class="toggleLink">
+                  <i class="fa-solid fa-chevron-right arrows" style="color: #d0af8a;"></i>
+                </a>
+              </div>
+              <div class="card-tittle">
+                <a href="#" class="toggleText">Scented candles can help you relax</a>
+              </div>
+            </div>
+            <div class="collaps">
+              <div>
+                <p class="card-body">Let essential oils prepare your mind for bed by burning them in a burner or
+                  diffusing the scent
+                  through the room via a nebulizer or mist diffuser. Beyond calming a harried mind, woody-spicy
+                  essential oils such as Frankincense inspire introspection and well-being, making it a great scent to
+                  meditate or just unwind to at the end of the day.</p>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="displayinlin">
+              <div class="arow">
+                <a href="#" class="toggleLink">
+                  <i class="fa-solid fa-chevron-right arrows" style="color: #d0af8a;"></i>
+                </a>
+              </div>
+              <div class="card-tittle">
+                <a href="#" class="toggleText">Candles help you sustain a healthy atmosphere</a>
+              </div>
+            </div>
+            <div class="collaps">
+              <div>
+                <p class="card-body">The presence of a lit candle lends any room a soft, warm glow of a sophistication
+                  that can really set
+                  the tone for the evening. A small, flickering flame reminiscent of cozy nights can create a calming,
+                  sedative effect, while its ornamental value is enhanced by its shape and the design of its holder.
+                  Chunky pillar candles set the stage for a home spa while intricate glass jar candles can add character
+                  and flair to the interior design of a room.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="clients reveal">
+      <div class="clein1"><a><img class="opacity" src="../candles/clients-1-122x46.png"></a></div>
+      <div class="clein2"><a><img class="opacity" src="../candles/clients-2-145x56.png"></a></div>
+      <div class="clein3"><a><img class="opacity" src="../candles/clients-3-112x53.png"></a></div>
+      <div class="clein4"><a><img class="opacity" src="../candles/clients-4-111x50.png"></a></div>
+    </div>
+  </section>
+
+
+
+  <section class="latestPosts">
+    <div class="container reveal">
+      <h5>From Our Blog</h5>
+      <h2>Latest Posts</h2>
+    </div>
+    <div class="stag">
+      <div>
+        <article class="zoom active ">
+          <a href="#"><img src="../candles/post-10-420x368.jpg"></a>
+          <div class="detailes">
+            <div class="title"><a href="#">Best Scented Candles for Relaxation</a></div>
+            <div class="time"><time datetime="2019-08-09">August 9, 2019</time></div>
+          </div>
+        </article>
+      </div>
+      <div>
+        <article class="zoom">
+          <a href="#"><img src="../candles/post-11-420x368.jpg"></a>
+          <div class="detailes">
+            <div class="title"><a href="#">Our Top 10 Summer Candle Scents for Your Home</a></div>
+            <div class="time"><time datetime="2019-08-09">August 9, 2019</time></div>
+          </div>
+        </article>
+      </div>
+      <div>
+        <article class="zoom">
+          <a href="#"><img src="../candles/post-12-420x368.jpg"></a>
+          <div class="detailes">
+            <div class="title"><a href="#">What Ingredients We Use to Produce Scented Candles</a></div>
+            <div class="time"><time datetime="2019-08-09">August 9, 2019</time></div>
+          </div>
+        </article>
+      </div>
+      <div>
+        <article class="zoom">
+          <a href="#"><img src="../candles/post-13-420x368.jpg"></a>
+          <div class="detailes">
+            <div class="title"><a href="#">Creating the Best Atmosphere for Your Holidays</a></div>
+            <div class="time"><time datetime="2019-08-09">August 9, 2019</time></div>
+          </div>
+        </article>
+      </div>
+      <div>
+        <article class="zoom">
+          <a href="#"><img src="../candles/post-14-420x368.jpg"></a>
+          <div class="detailes">
+            <div class="title"><a href="#">How to Use Aromatherapy in Everyday Life</a></div>
+            <div class="time"><time datetime="2019-08-09">August 9, 2019</time></div>
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="navigation">
+      <span id="prev" onmouseover="changeColorB(this)" onmouseout="changeColor(this)"><u>previce</u></span>
+      <span id="next" onmouseover="changeColorB(this)" onmouseout="changeColor(this)"><u>next</u></span>
+    </div>
+  </section>
+
+
+
+
+  <footer>
+    <div id="footer_section1" > 
+        <div class="footer_right_top reveal" >
+        <img src="../candles/logo-default-179x39.png" alt="">
+        <ul class="times">
+            <li>
+                <span>Weekdays:</span>
+                <span>08:00am - 08:00pm</span>
+            </li>
+            <li>
+                <span>Weekends:</span>
+                <span>10:00am - 06:00pm</span>
+            </li>
+        </ul>
+    </div>
+        <hr class="reveal">
+        <div class="socila_media ">
+            <p>Get Social</p>
+            <div>
+                <ul >
+                    <li><a><i onmouseover="change_color(this)" onmouseout="change_color2(this)"  class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a><i onmouseover="change_color(this)" onmouseout="change_color2(this)" class="fa-brands fa-twitter"></i></a></li>
+                    <li><a><i onmouseover="change_color(this)" onmouseout="change_color2(this)" class="fa-brands fa-instagram"></i></a></li>
+                    <li><a><i onmouseover="change_color(this)" onmouseout="change_color2(this)" class="fa-brands fa-google-plus-g"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer_section2" class="reveal">
+        <h5>CONTACTS</h5>
+        <div>
+            <i class="fa-solid fa-location-dot"></i>
+            <a onmouseover="change_color(this)" onmouseout="change_color2(this)">523 Sylvan Ave, 5th Floor<br>
+                Mountain View, CA 94041 USA</a>
+
+        </div>
+        <div>
+            <i class="fa-solid fa-phone"></i>
+            <a onmouseover="change_color(this)" onmouseout="change_color2(this)">+1 (844) 123 456 78</a>
+
+        </div>
+        <div>
+            <i class="fa-regular fa-envelope"></i>
+            <a onmouseover="change_color(this)" onmouseout="change_color2(this)">info@demolink.org</a>
+
+        </div>
+    </div>
+    <div id="footer_section3" class="reveal">
+        <h5>NEWSLETTER</h5>
+        <p>Subscribe to our newsletter to receive weekly news, 
+            <br>, special offers, and exclusive discounts.</p>
+        <div>
+        <input type="email" name="" id="">
+        <button><i class="fa-regular fa-paper-plane"></i></button>
+    </div>
+    </div>
+</footer>
+
+  <script src="../JAVASCRIPT/index.js"></script>
+</body>
+
+</html>

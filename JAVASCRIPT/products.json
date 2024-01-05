@@ -1,0 +1,67 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "BUTTER CREAM",
+            "image": "../candles/product-1-132x152.png",
+            "price": 24.00,
+            "category":"Organic"
+        },
+        {
+            "id": 2,
+            "name": "FRESH ROSES",
+            "image": "../candles/product-2-137x156.png",
+            "price": 13.00,
+            "category":"Votive"
+        },
+        {
+            "id": 3,
+            "name": "LAVANDER",
+            "image": "../candles/product-3-135x155.png",
+            "price": 17.00,
+            "category":"Container"
+        },
+        {
+            "id": 4,
+            "name": "CHOCOLATE",
+            "image": "../candles/product-4-135x155.png",
+            "price": 14.00,
+            "category":"Organic"
+        },
+        {
+            "id": 5,
+            "name": "BLUEBERRY SCONE",
+            "image": "../candles/product-5-135x155.png",
+            "price": 11.00,
+            "category":"Votive"
+        },
+        {
+            "id": 6,
+            "name": "STRAWBERRIES",
+            "image": "../candles/product-6-135x155.png",
+            "price": 15.00,
+            "category":"Container"
+        },
+        {
+            "id": 7,
+            "name": "SALTED CARAMEL",
+            "image": "../candles/product-7-135x155.png",
+            "price": 22.00,
+            "category":"Organic"
+        },
+        {
+            "id": 8,
+            "name": "APRIL SHOWERS",
+            "image": "../candles/product-8-135x155.png",
+            "price": 10.00,
+            "category":"Votive"
+        },
+        {
+            "id": 9,
+            "name": "MINT GREEN",
+            "image": "../candles/product-8-135x155.png",
+            "price": 10.00,
+            "category":"Container"
+        }
+    ]
+}

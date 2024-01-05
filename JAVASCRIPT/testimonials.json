@@ -1,0 +1,20 @@
+[
+    {
+        "quote": "I'm loving the candles so far - I think the bergamot and tangerine one is my favorite todate. The scents I've tried are subtle but pleasant and packaging is really special.",
+        "author": "Ahmed Omar",
+        "status": "Client",
+        "image": "../candles/pic20-free-img.png"
+    },
+    {
+        "quote": "I put your candles in each room downstairs and the whole house smelt fantastic. They really add something, and I’ll be sure to order some of the glass candles next too.",
+        "author": "Bill Mcmillan",
+        "status": "Client",
+        "image": "../candles/user-10-62x62.jpg"
+    },
+    {
+        "quote": "Zirbus velums, tanquam camerarius byssus. Pol, extum! Abactus varius ausus est. Cum elogium ortum, omnes ignigenaes acquirere altus, pius.",
+        "author": "James Bill",
+        "status": "Client",
+        "image": "../candles/user-5-62x62.jpg"
+    }
+]
